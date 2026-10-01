@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kayky Azevedo — Dev Full Stack</title>
+  <meta name="description" content="Portfólio de Kayky Azevedo: e-commerces, painéis, automações e sistemas web feitos sob medida.">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta property="og:title" content="Kayky Azevedo — Dev Full Stack">
+  <meta property="og:description" content="E-commerces, painéis, automações e sistemas web feitos sob medida.">
+  <meta property="og:image" content="https://kaykyazevedo.github.io/assets/shots/temprio.webp">
+  <meta property="og:url" content="https://kaykyazevedo.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23d7ff3a'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-style='italic' font-size='34' fill='%230a0a0b'%3EKA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="label"></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a href="#top" class="brand" data-magnetic><span class="mono-mark">ka</span>Kayky Azevedo</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#trabalhos"><span class="n">01</span>Trabalhos</a></li>
+        <li><a href="#sobre"><span class="n">02</span>Sobre</a></li>
+        <li><a href="#stack"><span class="n">03</span>Stack</a></li>
+        <li><a href="#contato"><span class="n">04</span>Contato</a></li>
+      </ul>
+      <a href="#contato" class="status"><span class="pulse"></span>Disponível para projetos</a>
+      <button class="menu-btn" id="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <canvas id="field" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="kicker"><span class="bar"></span>Dev Full Stack — portfólio 2026</div>
+      <h1 class="headline" aria-label="Eu crio e-commerces, painéis, automações, sistemas e sites que funcionam de verdade.">
+        <span class="line"><span>Eu crio <span class="swap" id="swap" aria-hidden="true">e-commerces</span><span class="caret"></span></span></span>
+        <span class="line"><span><span class="serif">que funcionam</span></span></span>
+        <span class="line"><span>de verdade.</span></span>
+      </h1>
+      <div class="hero-foot">
+        <p>Do layout ao banco de dados: <b>sites, lojas, painéis e automações</b> feitos sob medida para negócios reais — com front-end caprichado e back-end que aguenta o dia a dia.</p>
+        <div class="meta"><small>Foco</small><span>Front-end · Back-end · Automação</span></div>
+        <div class="meta"><small>No ar agora</small><span>4 projetos em produção</span></div>
+        <a href="#trabalhos" class="scroll-cue" aria-label="Ver trabalhos" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <span>JavaScript</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Next.js</span><i>✦</i><span>Python</span><i>✦</i>
+        <span>Node.js</span><i>✦</i><span>FastAPI</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Prisma</span><i>✦</i>
+        <span>Tailwind</span><i>✦</i><span>GSAP</span><i>✦</i><span>HTMX</span><i>✦</i><span>Automação</span><i>✦</i>
+      </div>
+      <div class="marquee-group">
+        <span>JavaScript</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Next.js</span><i>✦</i><span>Python</span><i>✦</i>
+        <span>Node.js</span><i>✦</i><span>FastAPI</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Prisma</span><i>✦</i>
+        <span>Tailwind</span><i>✦</i><span>GSAP</span><i>✦</i><span>HTMX</span><i>✦</i><span>Automação</span><i>✦</i>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRABALHOS -->
+  <section class="sec" id="trabalhos">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow rv"><span class="idx">01</span>/ Trabalhos selecionados</div>
+          <h2 class="title rv rv-d1">Projetos que <span class="serif">resolvem</span><br>problemas reais.</h2>
+        </div>
+        <p class="rv rv-d2">Lojas que vendem, painéis que poupam horas de trabalho manual e sistemas internos que substituem planilhas.</p>
+      </div>
+
+      <div class="projects">
+
+        <!-- 01 Temp Rio -->
+        <article class="project" style="--c:#ff8a3d;--c-soft:rgba(255,122,47,.22)">
+          <div class="p-info rv">
+            <div class="p-num"><b>01</b><span class="ln"></span>E-commerce · 2026</div>
+            <h3 class="p-title">Temp <span class="serif">Rio</span></h3>
+            <p class="p-desc">Site e loja de uma marca de temperos naturais que abastece comércios. Evoluiu de vitrine para um e-commerce completo, pensado para o jeito como o cliente já compra: pelo WhatsApp.</p>
+            <ul class="p-list">
+              <li>Catálogo com carrinho e pedido enviado direto para o WhatsApp</li>
+              <li>Triagem automática por área de entrega e lista de espera</li>
+              <li>Painel de administrador para gerenciar produtos e pedidos</li>
+            </ul>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">PostgreSQL</span><span class="tag">Vercel</span></div>
+            <div class="p-links">
+              <a class="btn btn-solid" href="https://tempriorj.vercel.app" target="_blank" rel="noopener">Ver site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <a class="btn btn-line" href="https://github.com/KaykyAzevedo/temp-rio-ecommerce" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="p-media rv rv-d1" href="https://tempriorj.vercel.app" target="_blank" rel="noopener" data-cursor="Abrir ↗">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>tempriorj.vercel.app</span></div></div>
+              <div class="screen"><img src="assets/shots/temprio.webp" alt="Página inicial do site Temp Rio" loading="lazy" width="1280" height="800"><span class="shine"></span><span class="badge-live"><span class="pulse"></span>no ar</span></div>
+            </div>
+          </a>
+        </article>
+
+        <!-- 02 JJ's TCG -->
+        <article class="project" style="--c:#ff5fa8;--c-soft:rgba(255,95,168,.22)">
+          <div class="p-info rv">
+            <div class="p-num"><b>02</b><span class="ln"></span>E-commerce · 2026</div>
+            <h3 class="p-title">JJ's <span class="serif">TCG</span></h3>
+            <p class="p-desc">Loja de cartas colecionáveis — Pokémon, Magic, Yu-Gi-Oh!, One Piece e Lorcana — com uma experiência tão divertida quanto abrir um booster.</p>
+            <ul class="p-list">
+              <li>Fluxo completo: catálogo, produto, carrinho, checkout e pedido</li>
+              <li>Animações com GSAP e um design system próprio</li>
+              <li>Zero build: JavaScript puro com ES modules e catálogo em JSON</li>
+            </ul>
+            <div class="tags"><span class="tag">JavaScript</span><span class="tag">ES Modules</span><span class="tag">GSAP</span><span class="tag">CSS</span></div>
+            <div class="p-links">
+              <a class="btn btn-solid" href="https://kaykyazevedo.github.io/jjs-tcg/" target="_blank" rel="noopener">Ver site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <a class="btn btn-line" href="https://github.com/KaykyAzevedo/jjs-tcg" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="p-media rv rv-d1" href="https://kaykyazevedo.github.io/jjs-tcg/" target="_blank" rel="noopener" data-cursor="Abrir ↗">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>kaykyazevedo.github.io/jjs-tcg</span></div></div>
+              <div class="screen"><img src="assets/shots/jjs.webp" alt="Página inicial da loja JJ's TCG" loading="lazy" width="1280" height="800"><span class="shine"></span><span class="badge-live"><span class="pulse"></span>no ar</span></div>
+            </div>
+          </a>
+        </article>
+
+        <!-- 03 Union -->
+        <article class="project" style="--c:#ff4d5a;--c-soft:rgba(255,59,71,.2)">
+          <div class="p-info rv">
+            <div class="p-num"><b>03</b><span class="ln"></span>Automação · 2026</div>
+            <h3 class="p-title">Union <span class="serif">Veículos</span></h3>
+            <p class="p-desc">Painel para a social media de uma revenda de carros. Todo dia às 18h o sistema lê o estoque do site da loja e transforma mudanças em tarefas — sem ninguém precisar conferir à mão.</p>
+            <ul class="p-list">
+              <li>Carro novo vira chamado com foto; queda de preço gera alerta com histórico</li>
+              <li>Detecta carros vendidos e reativa os que voltam ao estoque</li>
+              <li>Editor que gera o post do Instagram (1080×1350) com legenda e ZIP</li>
+            </ul>
+            <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">SQLite</span><span class="tag">APScheduler</span><span class="tag">HTMX</span><span class="tag">pytest</span></div>
+            <div class="p-links">
+              <a class="btn btn-solid" href="https://union-automal-es.vercel.app" target="_blank" rel="noopener">Ver painel <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <a class="btn btn-line" href="https://github.com/KaykyAzevedo/Union-Automal-es" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="p-media rv rv-d1" href="https://union-automal-es.vercel.app" target="_blank" rel="noopener" data-cursor="Abrir ↗">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>union-automal-es.vercel.app</span></div></div>
+              <div class="screen"><img src="assets/shots/union.webp" alt="Tela de acesso do painel Union Veículos" loading="lazy" width="1280" height="800"><span class="shine"></span><span class="badge-live"><span class="pulse"></span>no ar · acesso restrito</span></div>
+            </div>
+          </a>
+        </article>
+
+        <!-- 04 Sophia -->
+        <article class="project" style="--c:#6aa8ff;--c-soft:rgba(47,123,255,.24)">
+          <div class="p-info rv">
+            <div class="p-num"><b>04</b><span class="ln"></span>Landing page + agenda · 2026</div>
+            <h3 class="p-title">Sophia <span class="serif">Festas</span></h3>
+            <p class="p-desc">Site de uma casa de festas com clima de mundo mágico: preto, azul e metal, com borboletas voando. Além de vender o espaço, tem uma área para a equipe agendar eventos.</p>
+            <ul class="p-list">
+              <li>Logo em SVG com borboleta animada pousada no “S”</li>
+              <li>Céu estrelado em canvas e animações leves, com respeito a reduced-motion</li>
+              <li>Agenda com calendário, filtros e aviso de conflito de horário</li>
+            </ul>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">SVG</span><span class="tag">Canvas</span></div>
+            <div class="p-links">
+              <a class="btn btn-solid" href="https://kaykyazevedo.github.io/sophia-festas/" target="_blank" rel="noopener">Ver site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+              <a class="btn btn-line" href="https://github.com/KaykyAzevedo/sophia-festas" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="p-media rv rv-d1" href="https://kaykyazevedo.github.io/sophia-festas/" target="_blank" rel="noopener" data-cursor="Abrir ↗">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>kaykyazevedo.github.io/sophia-festas</span></div></div>
+              <div class="screen"><img src="assets/shots/sophia.webp" alt="Página inicial do site Sophia Festas" loading="lazy" width="1280" height="800"><span class="shine"></span><span class="badge-live"><span class="pulse"></span>no ar</span></div>
+            </div>
+          </a>
+        </article>
+
+        <!-- 05 Encarte -->
+        <article class="project">
+          <div class="p-info rv">
+            <div class="p-num"><b>05</b><span class="ln"></span>Ferramenta interna · 2026</div>
+            <h3 class="p-title">Encarte <span class="serif">Gerador</span></h3>
+            <p class="p-desc">Cola a lista de produtos com preços e o encarte promocional sai pronto: o sistema encontra a foto de cada item no banco de imagens, monta o layout no tema escolhido e exporta.</p>
+            <ul class="p-list">
+              <li>Casamento automático entre nome do produto e banco de imagens</li>
+              <li>Temas e formatos variados, exportação em PNG ou JPG</li>
+              <li>Monorepo com API documentada, schema do banco e guias</li>
+            </ul>
+            <div class="tags"><span class="tag">Next.js 14</span><span class="tag">TypeScript</span><span class="tag">Tailwind</span><span class="tag">Express</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span><span class="tag">NextAuth</span></div>
+            <div class="p-links">
+              <a class="btn btn-solid" href="https://github.com/KaykyAzevedo/automacao-de-encartes" target="_blank" rel="noopener">Ver código <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+          </div>
+          <a class="p-media rv rv-d1" href="https://github.com/KaykyAzevedo/automacao-de-encartes" target="_blank" rel="noopener" data-cursor="Código ↗">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><span>localhost:3000/encarte</span></div></div>
+              <div class="screen">
+                <div class="mock mock-encarte" role="img" aria-label="Ilustração da tela do Encarte Gerador">
+                  <div class="me-side">
+                    <span class="lbl">// lista de produtos</span>
+                    <div class="ta">Arroz 5kg <em>21,90</em><br>Feijão 1kg <em>7,49</em><br>Café 500g <em>16,90</em><br>Óleo 900ml <em>6,99</em><br>Açúcar 1kg <em>4,29</em><br>Leite 1L <em>4,79</em></div>
+                    <div class="go">Gerar encarte →</div>
+                  </div>
+                  <div class="me-stage">
+                    <div class="flyer">
+                      <div class="flyer-head"><div><b>OFERTAS</b><small>DA SEMANA</small></div></div>
+                      <div class="flyer-grid">
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#f4e3b5,#d9b56a)"></span><span class="price">21,90</span></div>
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#6b3b2a,#3a1f16)"></span><span class="price">7,49</span></div>
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#8a5a3c,#2b1a12)"></span><span class="price">16,90</span></div>
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#ffe27a,#e0a800)"></span><span class="price">6,99</span></div>
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#ffffff,#d6d6d6)"></span><span class="price">4,29</span></div>
+                        <div class="fp"><span class="im" style="--g:linear-gradient(135deg,#d9ecff,#7fb2e5)"></span><span class="price">4,79</span></div>
+                      </div>
+                      <div class="flyer-foot">VÁLIDO ATÉ DOMINGO</div>
+                    </div>
+                  </div>
+                </div>
+                <span class="shine"></span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- 06 App RH -->
+        <article class="project" style="--c:#b49cff;--c-soft:rgba(167,139,250,.2)">
+          <div class="p-info rv">
+            <div class="p-num"><b>06</b><span class="ln"></span>Sistema interno · 2026</div>
+            <h3 class="p-title">App <span class="serif">RH</span></h3>
+            <p class="p-desc">Sistema web para o RH de um escritório substituir planilhas: funcionários, documentos, férias e folhas de ponto num só lugar, rodando na rede local da empresa.</p>
+            <ul class="p-list">
+              <li>Login com senha criptografada e sessão em cookie assinado</li>
+              <li>Upload e download de documentos protegidos por sessão</li>
+              <li>Cuidado com dados sensíveis (LGPD) e regras de negócio testadas</li>
+            </ul>
+            <div class="tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Prisma</span><span class="tag">SQLite</span><span class="tag">Zod</span><span class="tag">shadcn/ui</span><span class="tag">Vitest</span></div>
+            <div class="p-links">
+              <span class="btn btn-line disabled">Código privado · uso interno</span>
+            </div>
+          </div>
+          <div class="p-media rv rv-d1" data-cursor="Privado">
+            <div class="browser" data-tilt>
+              <div class="bar-top"><div class="dots"><i></i><i></i><i></i></div><div class="url"><span>rh.local:3100/dashboard</span></div></div>
+              <div class="screen">
+                <div class="mock mock-rh" role="img" aria-label="Ilustração do painel do App RH">
+                  <div class="rh-side">
+                    <div class="lg"><i></i>APP RH</div>
+                    <span class="on">Dashboard</span><span>Funcionários</span><span>Documentos</span><span>Férias</span><span>Ponto</span>
+                  </div>
+                  <div class="rh-main">
+                    <div class="rh-top">Visão geral <i>outubro</i></div>
+                    <div class="rh-kpis">
+                      <div><small>Funcionários ativos</small><b>48</b></div>
+                      <div><small>Férias no mês</small><b>5</b></div>
+                      <div><small>Docs pendentes</small><b>3</b></div>
+                    </div>
+                    <div class="rh-table">
+                      <div class="rh-row"><span></span><span>NOME</span><span>SETOR</span><span>STATUS</span></div>
+                      <div class="rh-row"><span class="av" style="--g:linear-gradient(135deg,#c4b5fd,#7c3aed)"></span><span>Ana Ribeiro</span><span>Financeiro</span><span class="st ok">Ativo</span></div>
+                      <div class="rh-row"><span class="av" style="--g:linear-gradient(135deg,#fcd34d,#f59e0b)"></span><span>Bruno Lima</span><span>Comercial</span><span class="st fe">Férias</span></div>
+                      <div class="rh-row"><span class="av" style="--g:linear-gradient(135deg,#6ee7b7,#059669)"></span><span>Carla Souza</span><span>Operações</span><span class="st ok">Ativo</span></div>
+                      <div class="rh-row"><span class="av" style="--g:linear-gradient(135deg,#93c5fd,#2563eb)"></span><span>Diego Martins</span><span>TI</span><span class="st pd">Docs</span></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="shine"></span>
+                <span class="badge-live private"><span class="pulse"></span>em uso · privado</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sec" id="sobre" style="padding-top:0">
+    <div class="wrap">
+      <h2 class="eyebrow rv"><span class="idx">02</span>/ Sobre</h2>
+      <div class="about">
+        <p class="about-text" id="about-text">Sou dev full stack. Gosto de pegar um problema real — um estoque que muda todo dia, um RH cheio de planilhas, uma loja que vende pelo WhatsApp — e transformar em software que as pessoas <span class="serif">usam de verdade.</span> Trato o front-end como produto e o back-end como engenharia.</p>
+        <div class="principles rv rv-d1">
+          <div class="pr" tabindex="0"><span class="k">/a</span><div><h3>Entendo o negócio antes do código</h3><p>Cada projeto começa entendendo como a empresa já trabalha, para o sistema encaixar na rotina — não o contrário.</p></div></div>
+          <div class="pr" tabindex="0"><span class="k">/b</span><div><h3>Interface com cuidado de produto</h3><p>Animações com propósito, responsividade de verdade e atenção a estados de carregamento, erro e acessibilidade.</p></div></div>
+          <div class="pr" tabindex="0"><span class="k">/c</span><div><h3>Back-end sólido e testado</h3><p>Validação nas duas pontas, regras de negócio isoladas, testes automatizados e dados sensíveis tratados com cuidado.</p></div></div>
+          <div class="pr" tabindex="0"><span class="k">/d</span><div><h3>Automação que devolve horas</h3><p>Rotinas agendadas, coleta de dados e geração de material automática — o trabalho repetitivo fica com a máquina.</p></div></div>
+        </div>
+      </div>
+
+      <div class="stats rv">
+        <div class="stat"><b data-count="6">0</b><span>projetos entregues</span></div>
+        <div class="stat"><b data-count="4">0</b><span>sites e painéis no ar</span></div>
+        <div class="stat"><b data-count="3">0</b><span>linguagens no dia a dia</span></div>
+        <div class="stat"><b data-count="20" data-plus>0</b><span>ferramentas na stack</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="sec" id="stack" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow rv"><span class="idx">03</span>/ Stack</div>
+          <h2 class="title rv rv-d1">Ferramentas que eu <span class="serif">domino</span>.</h2>
+        </div>
+        <p class="rv rv-d2">Escolho a ferramenta pelo problema: às vezes é um Next.js completo, às vezes é HTML puro sem build.</p>
+      </div>
+      <div class="stack-grid rv">
+        <div class="stack-col"><h3>Front-end <b>01</b></h3><ul>
+          <li>HTML &amp; CSS <small>semântico</small></li><li>JavaScript <small>ES modules</small></li><li>TypeScript <small>strict</small></li>
+          <li>Next.js <small>App Router</small></li><li>Tailwind CSS</li><li>shadcn/ui</li><li>GSAP <small>animação</small></li></ul></div>
+        <div class="stack-col"><h3>Back-end <b>02</b></h3><ul>
+          <li>Node.js</li><li>Express</li><li>Python</li><li>FastAPI</li><li>Jinja2 + HTMX</li><li>Zod <small>validação</small></li></ul></div>
+        <div class="stack-col"><h3>Dados <b>03</b></h3><ul>
+          <li>PostgreSQL</li><li>SQLite</li><li>Prisma <small>ORM</small></li><li>Migrations</li><li>Auth <small>JWT · NextAuth</small></li></ul></div>
+        <div class="stack-col"><h3>Entrega <b>04</b></h3><ul>
+          <li>Git &amp; GitHub</li><li>Vercel</li><li>GitHub Pages</li><li>Vitest · pytest</li><li>APScheduler <small>jobs</small></li><li>Scraping <small>httpx · BS4</small></li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact" id="contato">
+    <div class="wrap">
+      <div class="eyebrow rv"><span class="idx">04</span>/ Contato</div>
+      <h2 class="big-cta rv rv-d1">Vamos construir<br><span class="serif">algo juntos?</span></h2>
+      <p class="rv rv-d2">Tem um site, uma loja ou um processo manual que podia ser automático? Me chama e a gente desenha a solução.</p>
+      <div class="contact-actions rv rv-d3">
+        <a class="btn btn-accent btn-xl" href="https://github.com/KaykyAzevedo" target="_blank" rel="noopener" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+          github.com/KaykyAzevedo
+        </a>
+        <a class="btn btn-line btn-xl" href="#trabalhos" data-magnetic>Rever projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© 2026 Kayky Azevedo</span>
+      <span class="mono">Feito à mão · HTML, CSS &amp; JS · <span id="clock">--:--</span> BRT</span>
+      <a href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
