@@ -1,4 +1,4 @@
-# PROJECT_STATE — Portfólio Kayky Azevedo
+# PROJECT_STATE — Portfólio Kayky Freitas de Azevedo
 
 ## Arquitetura
 Site estático de uma página, sem build. Pensado para GitHub Pages (repo de usuário `KaykyAzevedo.github.io` → URL raiz).
@@ -20,7 +20,7 @@ HTML + CSS + JavaScript puro. Fontes Google: Inter Tight, Instrument Serif, JetB
 - `og:image` aponta para `https://kaykyazevedo.github.io/` — ajustar se publicar em outro repo.
 
 ## Funcionalidades concluídas
-Site completo, responsivo (verificado 360/390/430/1440px sem overflow), revisado por QA; achados ALTO/MÉDIO corrigidos.
+Publicado em https://kaykyazevedo.github.io (repo KaykyAzevedo.github.io). Contato: e-mail, LinkedIn e GitHub. Site completo, responsivo (verificado 360/390/430/1440px sem overflow), revisado por QA; achados ALTO/MÉDIO corrigidos.
 
 ## Bugs conhecidos
 Nenhum conhecido.
@@ -29,4 +29,4 @@ Nenhum conhecido.
 Não inventar projetos/dados. Texto em 1ª pessoa e neutro em gênero. Separado do projeto Sophia Festas.
 
 ## Próximos passos
-Confirmar nome de exibição; adicionar e-mail/LinkedIn reais no contato; publicar no GitHub Pages; ao criar projeto novo, recapturar tela e adicionar card.
+Ao criar projeto novo, recapturar tela e adicionar card.

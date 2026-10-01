@@ -1,4 +1,4 @@
-# Portfólio — Kayky Azevedo
+# Portfólio — Kayky Freitas de Azevedo
 
 Site pessoal com meus trabalhos de desenvolvimento: https://kaykyazevedo.github.io
 

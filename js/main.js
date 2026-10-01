@@ -223,6 +223,15 @@
     else { addEventListener("scroll", update, { passive: true }); update(); }
   }
 
+  /* ---------- copiar e-mail ---------- */
+  const copyBtn = $("#copy-mail");
+  if (copyBtn) copyBtn.addEventListener("click", async () => {
+    const mail = "kaykyfreitas8@gmail.com";
+    try { await navigator.clipboard.writeText(mail); copyBtn.textContent = "Copiado ✓"; }
+    catch { copyBtn.textContent = mail; }
+    setTimeout(() => (copyBtn.textContent = "Copiar e-mail"), 2200);
+  });
+
   /* ---------- relógio do rodapé ---------- */
   const clock = $("#clock");
   const tick = () => {

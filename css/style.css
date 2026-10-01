@@ -348,11 +348,19 @@ section[id] { scroll-margin-top: 80px; }
 .contact .eyebrow { justify-content: center; }
 .big-cta { display: inline-block; font-size: clamp(3rem, 11vw, 11rem); line-height: .9; letter-spacing: -.055em; font-weight: 500; position: relative; }
 .big-cta .serif { color: var(--accent); }
-.contact p { color: var(--muted); max-width: 46ch; margin: 2rem auto 2.6rem; font-size: 1.05rem; }
+.contact p { color: var(--muted); max-width: 46ch; margin: 2rem auto 2.2rem; font-size: 1.05rem; }
 .contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; }
 .btn-xl { padding: 1.1rem 1.8rem; font-size: 1rem; }
 .btn-accent { background: var(--accent); color: var(--accent-ink); }
 .btn-accent::before { background: var(--text); }
+
+.mail-big {
+  display: inline-block; margin: 0 auto 2.2rem; font-size: clamp(1.15rem, 3.4vw, 2.4rem); letter-spacing: -.03em;
+  color: var(--text); border-bottom: 1px solid var(--line-2); padding-bottom: .2rem; transition: color .3s, border-color .3s;
+  overflow-wrap: anywhere;
+}
+.mail-big:hover { color: var(--accent); border-color: var(--accent); }
+.foot-links a:hover { color: var(--accent); }
 
 footer { border-top: 1px solid var(--line); padding: 1.8rem 0; }
 .foot { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; font-size: .82rem; color: var(--muted); }
@@ -377,6 +385,8 @@ footer { border-top: 1px solid var(--line); padding: 1.8rem 0; }
 }
 @media (max-width: 760px) {
   .grain { animation: none; }
+  .brand-full { display: none; }
+  .contact-actions .btn-xl { padding: .9rem 1.3rem; font-size: .92rem; }
   .nav-links, .nav .status { display: none; }
   .menu-btn { display: block; }
   .menu-open .nav-links {
